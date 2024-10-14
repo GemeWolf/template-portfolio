@@ -7,9 +7,9 @@ export const loaderAnimation = [
 ]
 
 export const LINKS = {
-  github: 'https://github.com/bue221',
+  github: 'https://github.com/GemeWolf',
   linkedin: 'https://www.linkedin.com/in/bue221/',
-  mail: 'mailto:camiloplaza3@gmail.com',
+  mail: 'mailto:danieltalamantes.l@outlook.com',
   instagram: 'https://www.instagram.com/caj_ink/',
   medium: 'https://ladvace.medium.com/',
   discord: 'https://discordapp.com/users/163300027618295808',
@@ -84,7 +84,7 @@ export const STUDIES = [
 export const EXPERIENCE = [
   {
     company: 'Straico',
-    location: 'Bogotá D C, Colombia',
+    location: 'CDMX, México',
     position: 'Software Engineer',
     start: '2021',
     link: 'https://straico.com/',
@@ -111,7 +111,7 @@ export const EXPERIENCE = [
   {
     company: 'Imaginamos',
     link: 'https://imaginamos.com/',
-    location: 'Bogotá D C, Colombia',
+    location: 'CDMX, México',
     position: 'Frontend developer',
     start: '2021',
     end: '2021',
@@ -122,7 +122,7 @@ export const EXPERIENCE = [
   },
   {
     company: 'INETUM',
-    location: 'Bogotá D C, Colombia',
+    location: 'CDMX, México',
     position: 'Frontend developer',
     start: '2021',
     link: 'https://www.inetum.com/es',
@@ -136,7 +136,7 @@ export const EXPERIENCE = [
   },
   {
     company: 'S I G',
-    location: 'Bogotá D C, Colombia',
+    location: 'CDMX, México',
     position: 'Software developer',
     start: '2021',
     end: '2021',
@@ -146,7 +146,7 @@ export const EXPERIENCE = [
   },
   {
     company: 'BOOKII',
-    location: 'Bogotá D C, Colombia',
+    location: 'CDMX, México',
     position: 'Software developer',
     start: '2019',
     end: '2021',
