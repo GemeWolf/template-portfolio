@@ -50,44 +50,32 @@ export const SEARCH: Page = {
 // Study Page
 export const STUDIES = [
   {
-    title: 'Computer Science',
-    institution: 'Universidad Central',
-    link: 'https://www.ucentral.edu.co/',
-    date: '2019 - 2027',
+    title: 'Software Eengineering',
+    institution: 'ULA',
+    link: 'https://ula.edu.mx/',
+    date: '2021 - 2025',
   },
   {
-    title: '...',
-    institution: 'Platzi',
-    link: 'https://platzi.com/',
-    date: '2018 - 2022',
-  },
-  {
-    title: '...',
+    title: 'Desarrollo Web Fullstack',
     institution: 'Udemy',
     link: 'https://www.udemy.com/',
-    date: '2018 - 2022',
+    date: '2022 - 2024',
   },
   {
-    title: '...',
-    institution: 'Youtube',
-    link: 'https://www.youtube.com/@midulive',
+    title: 'Academia X',
+    institution: 'Academy X',
+    link: 'https://www.academia-x.com/',
     date: '2018 - 2022',
-  },
-  {
-    title: 'Tattoo Artist',
-    institution: 'Tattoo Academy',
-    link: 'https://www.instagram.com/tattoodcacademy/',
-    date: '2024 - 2025',
   },
 ]
 
 export const EXPERIENCE = [
   {
-    company: 'Straico',
+    company: 'Pronde',
     location: 'CDMX, México',
     position: 'Software Engineer',
-    start: '2021',
-    link: 'https://straico.com/',
+    start: '2022',
+    link: '',
     end: 'Current',
     tasks: [
       'Integration IA services with react and tailwind css',
