@@ -8,7 +8,7 @@ export const loaderAnimation = [
 
 export const LINKS = {
   github: 'https://github.com/GemeWolf',
-  linkedin: 'https://www.linkedin.com/in/bue221/',
+  linkedin: 'www.linkedin.com/in/daniel-lópez-2a7448235',
   mail: 'mailto:danieltalamantes.l@outlook.com',
   instagram: 'https://www.instagram.com/caj_ink/',
   medium: 'https://ladvace.medium.com/',
