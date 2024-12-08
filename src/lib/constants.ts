@@ -10,9 +10,9 @@ export const LINKS = {
   github: 'https://github.com/GemeWolf',
   linkedin: 'www.linkedin.com/in/daniel-lópez-2a7448235',
   mail: 'mailto:danieltalamantes.l@outlook.com',
-  instagram: 'https://www.instagram.com/caj_ink/',
-  medium: 'https://ladvace.medium.com/',
-  discord: 'https://discordapp.com/users/163300027618295808',
+  instagram: 'https://www.instagram.com/gemewolf/',
+  // medium: 'https://ladvace.medium.com/',
+  // discord: 'https://discordapp.com/users/163300027618295808',
 }
 
 // Global
@@ -54,6 +54,11 @@ export const STUDIES = [
     institution: 'ULA',
     link: 'https://ula.edu.mx/',
     date: '2021 - 2025',
+  },{
+    title: 'Github Education',
+    institution: 'Github',
+    link: 'https://github.com/education',
+    date: '2023 - 2025',
   },
   {
     title: 'Desarrollo Web Fullstack',
@@ -71,78 +76,30 @@ export const STUDIES = [
 
 export const EXPERIENCE = [
   {
-    company: 'Pronde',
-    location: 'CDMX, México',
-    position: 'Software Engineer',
-    start: '2022',
-    link: '',
-    end: 'Current',
-    tasks: [
-      'Integration IA services with react and tailwind css',
-      'Development and build of DB with mongoDB',
-    ],
-  },
-  {
-    company: 'Spot2',
+    company: 'Dadi Market',
     location: 'Mexico City, Mexico',
     position: 'Software Engineer',
-    link: 'https://spot2.mx/',
-    start: '2021',
+    link: 'https://www.dadimarket.shop/',
+    start: '2023',
     end: 'Current',
     tasks: [
-      'Development of the Spot2 platform with the use of React, Redux, and Material UI',
-      'Development map with the use of Google Maps API',
-      'Development internal platform with the use of React, Redux, and Material UI',
+      'Script development for fiveM Server',
+      'Development for SQL database management',
+      'Using Lua and Js to incorporate interfaces with fiveM',
+      'Js development for self-moderating discord bots',
       'Testing and debugging',
     ],
   },
   {
-    company: 'Imaginamos',
-    link: 'https://imaginamos.com/',
+    company: 'Pronde',
     location: 'CDMX, México',
-    position: 'Frontend developer',
-    start: '2021',
-    end: '2021',
+    position: 'Back End Developer',
+    start: '2023',
+    link: 'https://pronde.com/',
+    end: '2023',
     tasks: [
-      'Development of the Imaginamos platform with the use of React, Redux, and Material UI',
-      'Work in ETB project with the use of React, Redux, and Material UI',
-    ],
-  },
-  {
-    company: 'INETUM',
-    location: 'CDMX, México',
-    position: 'Frontend developer',
-    start: '2021',
-    link: 'https://www.inetum.com/es',
-    end: '2021',
-    tasks: [
-      'Support in the QA area and bug review',
-      'Use of SCRUM methodology',
-      'Claro projects with the use of frameworks and libraries such as react and angular',
-      'Use of redux toolkit as aproposal which allowed a shorter development time when using this tool',
-    ],
-  },
-  {
-    company: 'S I G',
-    location: 'CDMX, México',
-    position: 'Software developer',
-    start: '2021',
-    end: '2021',
-    tasks: [
-      'Development of a dashboard with react admin and chartjs for managing and entering information',
-    ],
-  },
-  {
-    company: 'BOOKII',
-    location: 'CDMX, México',
-    position: 'Software developer',
-    start: '2019',
-    end: '2021',
-    tasks: [
-      'Productive collaborationwiththebackendteamforthecreationofthe conversationalclubs',
-      'Effective coding of conversational clubs following design guide lines and using the Redux statemanager',
-      'Creation of the Bookii page in Spanish and change of texts in cms',
-      'Generation of static posts using Gatsby and the Contentful cms for the Bookii blog',
+      'SQL DB management and creation of API\'s',
+      'Back End of service for call center',
     ],
   },
 ]
