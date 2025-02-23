@@ -9,10 +9,8 @@ export const loaderAnimation = [
 export const LINKS = {
   github: 'https://github.com/GemeWolf',
   linkedin: 'www.linkedin.com/in/daniel-lópez-2a7448235',
-  mail: 'mailto:danieltalamantes.l@outlook.com',
+  mail: 'mailto:contacto@gemewolf.com',
   instagram: 'https://www.instagram.com/gemewolf/',
-  // medium: 'https://ladvace.medium.com/',
-  // discord: 'https://discordapp.com/users/163300027618295808',
 }
 
 // Global
@@ -61,16 +59,16 @@ export const STUDIES = [
     date: '2023 - 2025',
   },
   {
-    title: 'Desarrollo Web Fullstack',
-    institution: 'Udemy',
+    title: 'Dev Web Fullstack',
+    institution: 'Udemy - web development',
     link: 'https://www.udemy.com/',
     date: '2022 - 2024',
   },
   {
-    title: 'Academia X',
-    institution: 'Academy X',
+    title: 'Javascript',
+    institution: 'Udemy - javascript backend',
     link: 'https://www.academia-x.com/',
-    date: '2018 - 2022',
+    date: '2024 - 2025',
   },
 ]
 
@@ -91,6 +89,20 @@ export const EXPERIENCE = [
     ],
   },
   {
+    company: 'TwinqTV',
+    location: 'Dominican Republic',
+    position: 'Full Stack Developer',
+    link: 'https://xrespectrp.tebex.io/',
+    start: '2024',
+    end: '2025',
+    tasks: [
+      'Development of a fiveM server for roleplay',
+      'Script development for fiveM Server',
+      'Creation and deployment of database for the server',
+      'Security management and optimization for the client and the server',
+    ],
+  },
+  {
     company: 'Pronde',
     location: 'CDMX, México',
     position: 'Back End Developer',
@@ -98,8 +110,8 @@ export const EXPERIENCE = [
     link: 'https://pronde.com/',
     end: '2023',
     tasks: [
-      'SQL DB management and creation of API\'s',
-      'Back End of service for call center',
+      'Database management and API integration for the Pronde platform',
+      'Call Center IT Management',
     ],
   },
 ]
