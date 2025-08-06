@@ -52,24 +52,24 @@ export const STUDIES = [
     title: 'Software Eengineering',
     institution: 'ULA',
     link: 'https://ula.edu.mx/',
-    date: '2021 - 2025',
+    date: '2023 - 2025',
   }, {
     title: 'Github Education',
     institution: 'Github',
     link: 'https://github.com/education',
-    date: '2023 - 2025',
+    date: '2024 - current',
   },
   {
     title: 'Dev Web Fullstack',
-    institution: 'Udemy - web development',
+    institution: 'Udemy',
     link: 'https://www.udemy.com/',
-    date: '2022 - 2024',
+    date: '2024',
   },
   {
     title: 'Javascript',
-    institution: 'Udemy - javascript backend',
-    link: 'https://www.academia-x.com/',
-    date: '2024 - 2025',
+    institution: 'Google Cloud Academy',
+    link: 'https://cloud.google.com/learn/training?hl=es-419',
+    date: '2024',
   },
 ]
 
