@@ -5,15 +5,23 @@ import { ModeToggle } from '../components/ui/ThemeToggle'
 
 <script is:inline>
   document.addEventListener('astro:after-swap', function () {
-    if (localStorage.getItem('theme') === 'dark')
-      document.documentElement.classList.toggle('dark', true)
+    const theme = localStorage.getItem('theme') || 'system'
+    const isDark = theme === 'dark' || 
+      (theme === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches)
+    document.documentElement.classList.toggle('dark', isDark)
   })
 
   const getThemePreference = () => {
-    return localStorage.getItem('theme')
+    return localStorage.getItem('theme') || 'system'
   }
 
-  const isDark = getThemePreference() === 'dark'
+  const theme = getThemePreference()
+  if (!localStorage.getItem('theme')) {
+    localStorage.setItem('theme', 'system')
+  }
+  
+  const isDark = theme === 'dark' || 
+    (theme === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches)
   document.documentElement.classList[isDark ? 'add' : 'remove']('dark')
 </script>
 
