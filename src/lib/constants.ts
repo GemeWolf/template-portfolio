@@ -11,6 +11,7 @@ export const LINKS = {
   linkedin: 'www.linkedin.com/in/daniel-lópez-2a7448235',
   mail: 'mailto:contacto@gemewolf.com',
   instagram: 'https://www.instagram.com/gemewolf/',
+  discord: 'https://discord.com/users/695150517986263072',
 }
 
 // Global
@@ -52,7 +53,7 @@ export const STUDIES = [
     institution: 'ULA',
     link: 'https://ula.edu.mx/',
     date: '2021 - 2025',
-  },{
+  }, {
     title: 'Github Education',
     institution: 'Github',
     link: 'https://github.com/education',
